@@ -1,0 +1,11 @@
+name: Security-Scan
+
+on:
+  workflow_dispatch
+
+jobs:
+  action:
+    name: Security Scan
+    uses: Fortiwatch/advanced-security-compliance/.github/workflows/security-scan.yml@main
+    with:
+      #language: javascript
