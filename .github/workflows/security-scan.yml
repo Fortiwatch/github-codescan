@@ -7,5 +7,6 @@ jobs:
   action:
     name: Security Scan
     uses: Fortiwatch/advanced-security-compliance/.github/workflows/security-scan.yml@main
-    #with:
-      #language: javascript
+    with:
+      auto-build: false
+      custom-build: ./gradlew build
