@@ -8,7 +8,8 @@ jobs:
     name: Security Scan
     uses: Fortiwatch/advanced-security-compliance/.github/workflows/codeql-analysis.yml@main
     with:
+      config-file: ./.github/codeql-config.yml
       auto-build: false
       custom-build: ./gradlew build
-      config-file: ./.github/codeql-config.yml
+      
       
