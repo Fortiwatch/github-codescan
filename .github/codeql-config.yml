@@ -3,6 +3,7 @@ name: "My CodeQL config"
 disable-default-queries: false
 
 queries:
+- uses: security-and-extended
 
 paths:
   - src
