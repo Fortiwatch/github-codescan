@@ -1,9 +1,7 @@
 name: Security-Scan
 
 on:
-  workflow_dispatch:
-    inputs:
-      path:
+  workflow_dispatch
 
 jobs:
   action:
