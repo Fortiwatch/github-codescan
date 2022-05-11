@@ -6,4 +6,4 @@ queries:
 - uses: security-and-extended
 
 paths:
-  - src
+- src
