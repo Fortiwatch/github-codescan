@@ -1,12 +1,9 @@
 name: Security-Scan
 
 on:
-  workflow_dispatch
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.txt'
-    paths:
-      - src
+  workflow_dispatch:
+    inputs:
+      path:
 
 jobs:
   action:
