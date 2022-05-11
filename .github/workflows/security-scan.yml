@@ -10,4 +10,5 @@ jobs:
     with:
       auto-build: false
       custom-build: ./gradlew build
+      config-file: ./.github/codeql-config.yml
       
